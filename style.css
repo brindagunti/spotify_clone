@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-color: beige;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    height: 90px;
+    list-style-type: none;
+    color: white;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 40px;
+    height: 40px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url("favpng_compact-disc-image-phonograph-record-aesthetics-music.png");
+    background-position: right;
+    background-size: 500px 500px;
+    background-repeat: no-repeat;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    bottom: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+
+#progressBar{
+    width: 75vw;
+    cursor:pointer;
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+.container h1{
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+.songItem{
+    display: flex;
+    height: 40px;
+    width: 150%;
+    background-color: white;
+    color:black;
+    margin-top: 33px;
+    margin-left: -90%;
+    border-radius: 15px;
+}
+
+.songItem i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.songItem img{
+    margin:0px 23px;
+    border-radius: 34px;
+}
+
+.timeStamp{
+    padding:20px;
+    margin-right: 10px;
+    top:8px;
+    position: relative;
+}
+
+.text1{
+    padding-top: 8px;
+}
+
+.songItemContainer{
+    margin-top: 34px;
+    margin-left: 200px;
+
+}
+.songInfo{
+    position: absolute;
+    left: 12vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.songInfo img{
+    opacity: 1;
+    transition: opacity 0.7s ease-in;
+}
